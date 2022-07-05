@@ -1,0 +1,23 @@
+#ALIAS
+alias sshuttle="/Library/Frameworks/Python.framework/Versions/3.9/bin/sshuttle"
+alias shiv="ssh E673862@50.84.225.41"
+alias shut="sshuttle -r E673862@50.84.225.41 10.232.0.0/16"
+alias jump="/Users/ttaylor5/scripts/jump.sh"
+alias svi="ssh ttaylor@98.120.101.8"
+alias jumpshut="sshuttle -r ttaylor5@172.30.105.132"
+alias svijump="sshuttle -r ttaylor@98.120.101.8"
+#alias ace="sshuttle -r ttaylor@71.85.94.19:51922 10.201.0.0/16 192.168.255.0/24 100.64.2.2/32 172.27.28.77/32 10.10.0.0/16 172.27.28.133/32 172.30.105.132/32"
+alias ace="./scripts/ace.sh"
+alias proj="cd /Users/ttaylor5/projects/"
+alias history="history 1"
+alias bast="ssh ttaylor@71.85.94.18 -p 51822"
+alias cvim='sshuttle -r root@10.201.6.34 10.0.0.0/16'
+alias cdev='ssh root@10.201.6.34'
+alias gpstart="launchctl load /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*"
+alias gpstop="launchctl unload /Library/LaunchAgents/com.paloaltonetworks.gp.pangp*"
+#alias sc='sshuttle -r ttaylor5@172.30.105.132 172.31.0.0/16 172.22.0.0/16 172.30.124.0/24'
+alias sc='./scripts/sc.sh'
+alias h='history | grep '
+alias scc='sshuttle -r ttaylor5@172.30.105.132 172.31.0.0/16 172.22.0.0/16 172.30.124.0/24 71.85.94.0/24'
+export SUDO_PASS=P4ssw0rd$
+export JUMP_PASS=P4ssw0rd1
